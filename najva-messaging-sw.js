@@ -1,0 +1,1 @@
+importScripts('https://van.najva.com/static/js/scripts/mikedres-website-46273-3b430b47-8f29-4c26-ac7b-3ec3331d5c37-service-worker.js');

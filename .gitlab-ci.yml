@@ -1,0 +1,19 @@
+stages:
+  - build
+  - deploy
+composer:
+  stage: build
+  script:
+    - pwd
+    - composer install
+    - pwd
+deploy:
+  stage: deploy
+  script:
+      - pwd
+      - sudo cp -R ./* /home/mikedres/public_html
+      - sudo php /home/mikedres/public_html/artisan migrate
+      - sudo php /home/mikedres/public_html/artisan cache:clear
+      - sudo php /home/mikedres/public_html/artisan config:clear
+      - sudo php /home/mikedres/public_html/artisan route:clear
+      - sudo php /home/mikedres/public_html/artisan view:clear

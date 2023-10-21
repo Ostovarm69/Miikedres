@@ -1,0 +1,159 @@
+body {
+    background-color: white !important;
+}
+.profile-sidebar {
+    border: 1px solid #e0e0e6 !important;
+    border-radius: 8px !important;
+}
+.profile-sidebar-header .profile-avatar img {
+    width: 48px !important;
+    height: 48px !important;
+}
+.profile-edit {
+    float: left;
+    margin: 15px;
+    font-size: 15px;
+    color: #00bfd6;
+}
+.timeline-icon-bar {
+    display: inline-block;
+    width: 30px;
+    position: relative;
+    height: 33px;
+    float: right;
+    margin-right: -10px;
+}
+.timeline-icon-bar i.dot-timeline {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: #e0e0e6;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -5px;
+}
+.timeline-icon-bar i.dash-timeline {
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    border-bottom: 2px solid #e0e0e6;
+    top: 50%;
+    margin-top: -2px;
+}
+.value-profile-point {
+    color: #23254e !important;
+    font-size: 12px;
+    font-weight: 400;
+}
+.mr-10-dg {
+    margin-right: 10px !important;
+}
+.label-profile-point {
+    font-size: 12px !important;
+    color: black !important;
+    font-weight: 900 !important;
+}
+.side-divider {
+    padding: 10px 0;
+}
+
+.border-none-dg {
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.mb-none-dg {
+    margin-bottom: 0 !important;
+}
+.pt-none-dg {
+    padding-top: 0 !important;
+}
+.pb-none-dg {
+    padding-bottom: 0 !important;
+}
+.profile-menu ul li a {
+    padding: 14px 5px !important;
+    font-size: 14px;
+    color: #3f4064 !important;
+    border-right: 4px solid transparent;
+    position: relative;
+}
+.profile-menu ul li a.active {
+    font-weight: 900 !important;
+    font-size: 16px;
+}
+.profile-menu ul li a.active .menu-r-dg {
+    position: absolute;
+    right: -4px;
+    height: 70%;
+    width: 4px;
+    background-color: #00bfd6;
+    top: 15%;
+    border-radius: 20px;
+}
+.profile-menu ul li a i.mdi {
+    margin-left: 10px !important;
+    margin-top: -7px !important;
+    font-size: 24px !important;
+    color: black !important;
+}
+.plt-none-dg {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.menu-bottom-dg {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid #f1f2f4;
+    width: 80%;
+    right: 0;
+    margin-right: 10%;
+}
+.value-profile-point a i {
+    margin-right: -3px;
+    position: relative;
+    top: 3px;
+    font-size: 15px;
+}
+.card-content-dg {
+    border: 1px solid #e0e0e6 !important;
+    border-radius: 8px;
+    padding: 20px 0;
+}
+.card-content-dg .profile-section {
+    border: none !important;
+    box-shadow: none !important;
+}
+.card-content-dg .section-title h2 {
+    color: #080a38 !important;
+    font-weight: 700 !important;
+    padding-right: 0 !important;
+}
+.card-content-dg .title-wide h2:before {
+    background: none !important;
+}
+.card-content-dg .title-wide h2:after {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    border: 1px solid #00bfd6;
+    right: 0;
+    top: 40px;
+}
+.slider-section-dg {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+.dg-no-shadow {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+.card-horizontal-product-dg {
+    padding: 0 !important;
+    margin-top: 10px;
+}

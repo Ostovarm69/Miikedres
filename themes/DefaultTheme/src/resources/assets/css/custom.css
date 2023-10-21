@@ -1,0 +1,25 @@
+.category-product-div {
+    padding: 5px !important;
+}
+.btn-warning-cm {
+    padding: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 10px;
+    color: #ffffff;
+    border: 0;
+    outline: 0;
+    background-color: #f5b223;
+    overflow: hidden;
+    outline-offset: 2px;
+    outline: 2px solid #f5b223;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+.login-by-google {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 auto;
+}
